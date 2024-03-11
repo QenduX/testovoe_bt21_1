@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Testovoe BT21_1</title>
+</head>
+<body>
+    <div class="page">
+        <div class="main">
+            <div class="main__block"></div>
+            <div class="main__block main__block-json"></div>
+            <button class="main__btn btn__primary">Начать</button>
+        </div>
+        <div class="popup">
+            <div class="popup__bg"></div>
+            <div class="popup__wrapper">
+                <h2 class="popup__title">Заголовок</h2>
+                <form class="form" name="form">
+                    <div class="form__block">
+                        <label class="input">
+                            <span class="input__text">Имя:</span>
+                            <input class="input__area" type="text" name="name" required>
+                        </label>
+                        <label class="input">
+                            <span class="input__text">Фамилия:</span>
+                            <input class="input__area" type="text" name="secondName" required>
+                        </label>
+                        <label class="input">
+                            <span class="input__text">Имя петомца:</span>
+                            <input class="input__area" type="text" name="petName" required>
+                        </label>
+                        <label class="input">
+                            <span class="input__text">Телефон:</span>
+                            <input class="input__area" type="text" name="tel" required>
+                        </label>
+                        <label class="input">
+                            <span class="input__text">Email:</span>
+                            <input class="input__area" type="text" name="mail" required>
+                        </label>
+                    </div>
+                    <button class="popup__btn btn__primary">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
